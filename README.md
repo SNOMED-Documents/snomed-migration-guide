@@ -2,7 +2,7 @@
 
 **Published by SNOMED International**
 
-This guide is intended for organisations planning or executing a migration to SNOMED CT, including national release centres (NRCs), user organisations such as hospitals, primary care networks, and health authorities, and EHR and health IT vendors implementing SNOMED CT in products and platforms. It covers the full arc of a migration: why organisations undertake them, the decisions that shape them, how to plan and execute the work, common challenges and how to address them, and ow to know when the migration has succeeded.
+This guide is intended for organisations planning or executing a migration to SNOMED CT, including national release centres (NRCs), user organisations such as hospitals, primary care networks, and health authorities, and EHR and health IT vendors implementing SNOMED CT in products and platforms. It covers the full arc of a migration: why organisations undertake them, the decisions that shape them, how to plan and execute the work, common challenges and how to address them, and how to know when the migration has succeeded.
 
 The guide integrates content from several companion resources: the SNOMED CT Beyond FHIR guidance on running SNOMED CT in different architectural environments, the Minimum Viable Migration starter guide, and a set of case studies drawn from composite organisations that illustrate the range of approaches in practice.
 
