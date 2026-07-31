@@ -43,6 +43,8 @@ Five risk categories apply to most SNOMED CT migrations.
 
 ## Dimension 4: Timing and approach
 
+This dimension addresses how quickly and in what sequence the work proceeds. For the related question of what changes — the underlying data, the system clinicians use, or both — see the four patterns in [System and Data Migration](4-system-and-data-migration.md).
+
 Four migration timing patterns suit different organisations.
 
 **API-first bridge.** A FHIR API layer is deployed quickly (typically weeks), providing standards-based access to existing legacy data while full data conversion is planned and executed over months. Suitable for organisations that need rapid interoperability participation before conversion is complete.

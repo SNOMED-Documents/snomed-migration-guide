@@ -36,4 +36,4 @@ V2 carries SNOMED CT natively in its CWE (Coded with Exceptions) and CE (Coded E
 
 Real organisations typically run combinations of these alongside FHIR and V2. SNOMED CT is the shared terminology layer that gives coherent clinical meaning across all of them.
 
-For guidance on terminology servers and on running SNOMED CT without one, see [Terminology Infrastructure](4.1-terminology-infrastructure.md).
+For guidance on terminology servers and on running SNOMED CT without one, see [Terminology Infrastructure](2.1-terminology-infrastructure.md).
