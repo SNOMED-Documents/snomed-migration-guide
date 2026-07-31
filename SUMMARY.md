@@ -1,11 +1,12 @@
 # Table of contents
 
-* [Migrating to SNOMED CT: A Practical Guide](README.md)
+* [Migrating to SNOMED CT](README.md)
+* [Introduction](introduction.md)
 * [Why Migrate to SNOMED CT](1-why-migrate-to-snomed-ct.md)
 * [Terminology Strategy](2-terminology-strategy.md)
 * [System and Data Migration](3-system-and-data-migration.md)
 * [The Architectural Context](<4 the-architectural-context/README.md>)
-    * [Terminology Infrastructure](<4 the-architectural-context/4.1-terminology-infrastructure.md>)
+  * [Terminology Infrastructure](<4 the-architectural-context/4.1-terminology-infrastructure.md>)
 * [Planning a Migration](5-planning-a-migration.md)
 * [Data Migration Strategies](6-data-migration-strategies.md)
 * [Common Challenges](7-common-challenges.md)
