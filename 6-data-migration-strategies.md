@@ -6,11 +6,11 @@ Most real migrations use a combination of strategies, applied to different data 
 
 Legacy clinical records are fully converted to FHIR resources with SNOMED CT codes. The converted records are the primary live clinical records. Original data is retained alongside with provenance links.
 
-**Appropriate for:** data essential for ongoing care — active diagnoses, current medications, allergies, surgical history, recent lab results. Data needed for AI model training, semantic search, or population analytics. Data that is accessed frequently and requires the highest quality coding.
+**Appropriate for:** data essential for ongoing care - active diagnoses, current medications, allergies, surgical history, recent lab results. Data needed for AI model training, semantic search, or population analytics. Data that is accessed frequently and requires the highest quality coding.
 
-**Effort profile:** High upfront (planning, mapping development, conversion pipeline, and testing — typically 8–15 months for a significant data set). Low ongoing once complete.
+**Effort profile:** High upfront (planning, mapping development, conversion pipeline, and testing - typically 8–15 months for a significant data set). Low ongoing once complete.
 
-**Requirement:** Three-tier validation is essential — see [Testing and Verification](8-testing-and-verification.md).
+**Requirement:** Three-tier validation is essential - see [Testing and Verification](8-testing-and-verification.md).
 
 ## API integration (FHIR facade)
 
@@ -18,13 +18,13 @@ A FHIR API layer sits in front of the legacy system and translates requests at q
 
 **Appropriate for:** important historical data accessed occasionally. A bridging strategy during phased migration. Large volumes where the ROI of full conversion is unclear.
 
-**Effort profile:** Medium upfront (typically 2–4 months). Medium-to-high ongoing — two systems to maintain and ongoing conversion logic to update.
+**Effort profile:** Medium upfront (typically 2–4 months). Medium-to-high ongoing - two systems to maintain and ongoing conversion logic to update.
 
 **Limitations:** Not optimal for high-volume queries or real-time analytics. AI model training on API-integrated data is technically challenging. Does not resolve the underlying data quality limitation long-term.
 
 ## Strategic archiving
 
-Data is moved to long-term storage — searchable and accessible but not in live clinical systems.
+Data is moved to long-term storage - searchable and accessible but not in live clinical systems.
 
 **Appropriate for:** administrative data with no ongoing clinical use. Very old routine clinical data. Data required for compliance or audit but rarely retrieved. Not appropriate for allergies, chronic conditions, surgical history, immunisation records, or any data that could affect current care, regardless of age.
 

@@ -10,8 +10,8 @@ A value-effort matrix helps structure this:
 
 | | **High clinical value** | **Low clinical value** |
 |---|---|---|
-| **Low conversion effort** | Convert fully — priority category | Convert opportunistically or via API integration |
-| **High conversion effort** | Assess carefully — phased or AI-assisted conversion | Archive or defer |
+| **Low conversion effort** | Convert fully - priority category | Convert opportunistically or via API integration |
+| **High conversion effort** | Assess carefully - phased or AI-assisted conversion | Archive or defer |
 
 Data essential for ongoing care (active diagnoses, current medications, allergies, surgical history) with clean, structured source data is a strong candidate for full conversion. Data rarely accessed and structurally messy is a candidate for archiving. Most organisations' data falls between these extremes, which is why hybrid approaches are most common.
 
@@ -21,7 +21,7 @@ Key scope questions: How many patient records, across how many source systems? W
 
 Functional requirements define what must continue working after migration, what should improve, and what becomes newly possible.
 
-**Preserve:** Clinical decision support alerts. Quality measure calculations. Regulatory reporting. Clinical documentation workflows. Data exchange with existing partners. All of these must work correctly at go-live — regression on any of them is not acceptable.
+**Preserve:** Clinical decision support alerts. Quality measure calculations. Regulatory reporting. Clinical documentation workflows. Data exchange with existing partners. All of these must work correctly at go-live - regression on any of them is not acceptable.
 
 **Improve:** More precise clinical documentation where primary terminology is introduced. Semantic search across records. Better decision support using SNOMED CT relationships. Standards-based FHIR exchange with partner organisations.
 
@@ -43,7 +43,7 @@ Five risk categories apply to most SNOMED CT migrations.
 
 ## Dimension 4: Timing and approach
 
-This dimension addresses how quickly and in what sequence the work proceeds. For the related question of what changes — the underlying data, the system clinicians use, or both — see the four patterns in [System and Data Migration](4-system-and-data-migration.md).
+This dimension addresses how quickly and in what sequence the work proceeds. For the related question of what changes - the underlying data, the system clinicians use, or both - see the four patterns in [System and Data Migration](4-system-and-data-migration.md).
 
 Four migration timing patterns suit different organisations.
 

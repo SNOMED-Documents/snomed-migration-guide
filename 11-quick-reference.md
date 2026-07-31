@@ -9,10 +9,10 @@
 | Interface terminology binding | Pre-built map between clinician-facing terms and SNOMED CT concepts, embedded in the clinical system as a configuration table or FHIR ValueSet |
 | Batch mapping | Bulk conversion of historical records from legacy codes to SNOMED CT |
 | Terminology server | Centralised infrastructure providing SNOMED CT lookup, value-set expansion, code validation, and cross-map translation |
-| FHIR | Fast Healthcare Interoperability Resources — the dominant modern interoperability standard for clinical data exchange |
+| FHIR | Fast Healthcare Interoperability Resources - the dominant modern interoperability standard for clinical data exchange |
 | openEHR | Open specification for clinical health record information models based on Archetypes and Templates |
 | HL7 V2 | Older clinical messaging standard, still in widespread use globally for hospital interfaces |
-| CWE | HL7 V2 "Coded with Exceptions" data type — carries a SNOMED CT concept ID, display text, and code-system identifier in a single structured field |
+| CWE | HL7 V2 "Coded with Exceptions" data type - carries a SNOMED CT concept ID, display text, and code-system identifier in a single structured field |
 | FHIR Provenance | FHIR resource documenting the origin, conversion process, and audit trail for a clinical record |
 | Post-coordination | Combining SNOMED CT concepts to express a more specific clinical meaning not available as a single pre-coordinated concept |
 | National extension | Country-specific additions to the international SNOMED CT edition, managed by the national release centre |

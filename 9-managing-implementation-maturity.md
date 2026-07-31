@@ -16,6 +16,6 @@ Terminology governance: a responsible team or individual for SNOMED CT decisions
 
 SNOMED International's Implementation Maturity Framework provides a structured self-assessment across the key performance areas of SNOMED CT implementation, tailored separately for NRCs, user organisations, and vendors. The framework is designed for repeated use.
 
-Completing the assessment at the start of a migration establishes a baseline. Returning to it at significant milestones — after data migration is complete, after enabling FHIR exchange, after extending to a new clinical domain — gives a structured view of progress and identifies where the next investment will have the highest impact.
+Completing the assessment at the start of a migration establishes a baseline. Returning to it at significant milestones - after data migration is complete, after enabling FHIR exchange, after extending to a new clinical domain - gives a structured view of progress and identifies where the next investment will have the highest impact.
 
 The framework is most valuable as a continuous planning and improvement tool rather than a one-time starting-point assessment. An organisation in the early stages of a migration can use it to focus on the performance areas most relevant to that stage. An organisation three years into a mature implementation can use it to identify where the next phase of development should concentrate.

@@ -6,7 +6,7 @@ The second decision that shapes every migration is what the migration is actuall
 
 **System migration** changes the system clinicians use. New user interfaces, new workflows, new capture screens, potentially a whole new EHR. This is primarily change-management work. Clinicians experience it directly.
 
-Every real migration involves some of both. Getting the balance between them named explicitly — rather than leaving it as a shared assumption — is one of the most consequential planning steps.
+Every real migration involves some of both. Getting the balance between them named explicitly - rather than leaving it as a shared assumption - is one of the most consequential planning steps.
 
 ## The four patterns
 
@@ -19,13 +19,13 @@ The simplest way to understand the landscape is as a two-by-two:
 
 Each cell describes a genuinely different project with different costs, timelines, risks, and clinical-team asks. Most real migrations combine elements from more than one cell, particularly in large or phased programmes.
 
-**Full modernisation** — both system and data change. New interfaces driven by SNOMED CT primary terminology, new workflows, new data structures. Highest ambition, highest change-management cost, cleanest end state. This pattern is most accessible to greenfield sites or organisations undertaking a full EHR replacement.
+**Full modernisation** - both system and data change. New interfaces driven by SNOMED CT primary terminology, new workflows, new data structures. Highest ambition, highest change-management cost, cleanest end state. This pattern is most accessible to greenfield sites or organisations undertaking a full EHR replacement.
 
-**Behind-the-scenes migration** — data changes, system unchanged. Clinicians see nothing different. SNOMED CT codes are added behind every record via reference terminology binding and batch mapping. The system they use on go-live morning looks and behaves exactly as it did the day before. This is the minimum-viable-migration pattern — see below.
+**Behind-the-scenes migration** - data changes, system unchanged. Clinicians see nothing different. SNOMED CT codes are added behind every record via reference terminology binding and batch mapping. The system they use on go-live morning looks and behaves exactly as it did the day before. This is the minimum-viable-migration pattern - see below.
 
-**Partial system migration** — a common middle ground in established organisations. All historical data is converted (full data migration), while system changes are targeted at the workflows where clinical granularity matters most, leaving other workflows unchanged.
+**Partial system migration** - a common middle ground in established organisations. All historical data is converted (full data migration), while system changes are targeted at the workflows where clinical granularity matters most, leaving other workflows unchanged.
 
-**Phased hybrid** — the standard pattern for large regional and national programmes. Data migration first (establishing the SNOMED CT layer with minimal clinical disruption), then progressive system modernisation at a pace that clinical teams can absorb.
+**Phased hybrid** - the standard pattern for large regional and national programmes. Data migration first (establishing the SNOMED CT layer with minimal clinical disruption), then progressive system modernisation at a pace that clinical teams can absorb.
 
 ## Minimum viable migration
 
@@ -41,8 +41,8 @@ A minimum viable migration delivers regulatory conformance and standards-based d
 
 Two questions do most of the work in placing a migration on the system-data spectrum.
 
-**What is driving the migration?** A regulatory or interoperability deadline points toward the behind-the-scenes pattern, with system changes optional. A clinical-modernisation ambition — better decision support, semantic search, AI capabilities — requires system-migration elements to deliver those benefits. A greenfield or rip-and-replace opportunity opens the full-modernisation option. A multi-provider programme almost always results in a phased hybrid.
+**What is driving the migration?** A regulatory or interoperability deadline points toward the behind-the-scenes pattern, with system changes optional. A clinical-modernisation ambition - better decision support, semantic search, AI capabilities - requires system-migration elements to deliver those benefits. A greenfield or rip-and-replace opportunity opens the full-modernisation option. A multi-provider programme almost always results in a phased hybrid.
 
 **What is the executive sponsor expecting?** A visible, clinically-transformative change to SNOMED CT requires system-migration elements. Data migration alone will not meet that expectation, however technically successful it is. Standards compliance without disrupting operations is precisely what the behind-the-scenes pattern delivers.
 
-The remaining factors that shape this decision — clinical team readiness, the precise data in scope, and budget and timeline constraints — are covered as part of the five planning dimensions in [Planning a Migration](5-planning-a-migration.md).
+The remaining factors that shape this decision - clinical team readiness, the precise data in scope, and budget and timeline constraints - are covered as part of the five planning dimensions in [Planning a Migration](5-planning-a-migration.md).

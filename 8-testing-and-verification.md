@@ -4,13 +4,13 @@
 
 Testing for a SNOMED CT migration operates at three tiers, each catching a distinct category of problem.
 
-**Tier 1 — Automated technical testing.** FHIR resource structure validity (using the HL7 FHIR validator), data completeness (record counts before and after conversion), referential integrity, and system performance under realistic load. This tier can and should run continuously throughout the migration and should gate each deployment to production.
+**Tier 1 - Automated technical testing.** FHIR resource structure validity (using the HL7 FHIR validator), data completeness (record counts before and after conversion), referential integrity, and system performance under realistic load. This tier can and should run continuously throughout the migration and should gate each deployment to production.
 
-**Tier 2 — Standards conformance testing.** Conformance of FHIR resources against the relevant national implementation guides (US Core, NHS England profiles, etc.). SNOMED CT semantic validity — correct hierarchy membership, valid active concept identifiers, appropriate use of post-coordination. Cross-map validation. This tier requires tooling specific to the standards in scope.
+**Tier 2 - Standards conformance testing.** Conformance of FHIR resources against the relevant national implementation guides (US Core, NHS England profiles, etc.). SNOMED CT semantic validity - correct hierarchy membership, valid active concept identifiers, appropriate use of post-coordination. Cross-map validation. This tier requires tooling specific to the standards in scope.
 
-**Tier 3 — Clinical validation.** Medical appropriateness of converted records: do the SNOMED CT concepts in the converted data correctly represent the clinical intent of the source records? Context preservation: is a past condition correctly distinguished from a current condition? Decision support: do drug-allergy alerts, drug-interaction checks, and clinical recommendation rules produce the correct outcomes on converted data? This tier requires qualified clinical reviewers. It cannot be automated.
+**Tier 3 - Clinical validation.** Medical appropriateness of converted records: do the SNOMED CT concepts in the converted data correctly represent the clinical intent of the source records? Context preservation: is a past condition correctly distinguished from a current condition? Decision support: do drug-allergy alerts, drug-interaction checks, and clinical recommendation rules produce the correct outcomes on converted data? This tier requires qualified clinical reviewers. It cannot be automated.
 
-Safety-critical data types — allergies, known drug sensitivities, high-risk medication alerts — require parallel running alongside clinical validation: both the old and new systems operating simultaneously, with outputs compared. Any discrepancy must be investigated and resolved before the legacy system is decommissioned.
+Safety-critical data types - allergies, known drug sensitivities, high-risk medication alerts - require parallel running alongside clinical validation: both the old and new systems operating simultaneously, with outputs compared. Any discrepancy must be investigated and resolved before the legacy system is decommissioned.
 
 ## Verification against migration objectives
 
