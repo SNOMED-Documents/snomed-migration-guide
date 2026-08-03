@@ -27,7 +27,7 @@ This guide covers the full arc of a SNOMED CT migration and is structured in fiv
 **Foundations** sets out why organisations migrate and the landscape they are migrating into.
 
 * [Why Migrate to SNOMED CT](../1-why-migrate-to-snomed-ct.md) sets out the eight strategic objectives a migration can support, and why a contained first phase is usually the most realistic starting point.
-* [The Architectural Context](<../2 the-architectural-context/>) describes the standards and infrastructure - FHIR, openEHR, HL7 V2, terminology servers, and more - that a migration plan must account for.
+* [The Architectural Context](../foundations/2-the-architectural-context.md) describes the standards and infrastructure - FHIR, openEHR, HL7 V2, terminology servers, and more - that a migration plan must account for.
 
 **Strategic Decisions** covers the two decisions that shape every migration, independent of its size or timeline.
 

@@ -8,10 +8,7 @@ Scope is not a binary decision. Each data type and time period should be assesse
 
 A value-effort matrix helps structure this:
 
-| | **High clinical value** | **Low clinical value** |
-|---|---|---|
-| **Low conversion effort** | Convert fully - priority category | Convert opportunistically or via API integration |
-| **High conversion effort** | Assess carefully - phased or AI-assisted conversion | Archive or defer |
+<table data-search="false"><thead><tr><th>Effort / Clinical value</th><th>High clinical value</th><th>Low clinical value</th></tr></thead><tbody><tr><td><strong>Low conversion effort</strong></td><td>Convert fully - priority category</td><td>Convert opportunistically or via API integration</td></tr><tr><td><strong>High conversion effort</strong></td><td>Assess carefully - phased or AI-assisted conversion</td><td>Archive or defer</td></tr></tbody></table>
 
 Data essential for ongoing care (active diagnoses, current medications, allergies, surgical history) with clean, structured source data is a strong candidate for full conversion. Data rarely accessed and structurally messy is a candidate for archiving. Most organisations' data falls between these extremes, which is why hybrid approaches are most common.
 
@@ -61,4 +58,4 @@ Four migration timing patterns suit different organisations.
 
 **Extended team roles depending on scope.** DevOps engineer (automated testing, staged deployment). Data quality analyst (quality assessment, post-migration monitoring). Change management specialist (training, communication, adoption). Cloud architect (cloud deployment and scalability, where applicable). AI/ML specialist (where AI capabilities are a migration objective).
 
-**Key tools.** A FHIR server. A terminology server with SNOMED CT. A FHIR validator. A mapping tool. An automated testing framework. A CI/CD pipeline for staged deployment.
+**Key tools.** A FHIR server (EHR Datastore). A terminology server with SNOMED CT. A FHIR validator. A mapping tool. An automated testing framework. A CI/CD pipeline for staged deployment.

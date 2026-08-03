@@ -12,10 +12,10 @@ Every real migration involves some of both. Getting the balance between them nam
 
 The simplest way to understand the landscape is as a two-by-two:
 
-|  | **Data changes** | **Data unchanged** |
-|---|---|---|
-| **System changes** | Full modernisation | UI refresh only (rare in SNOMED CT migrations) |
-| **System unchanged** | Behind-the-scenes migration | Status quo |
+| System / Data        | Data changes                | Data unchanged                                 |
+| -------------------- | --------------------------- | ---------------------------------------------- |
+| **System changes**   | Full modernisation          | UI refresh only (rare in SNOMED CT migrations) |
+| **System unchanged** | Behind-the-scenes migration | Status quo                                     |
 
 Each cell describes a genuinely different project with different costs, timelines, risks, and clinical-team asks. Most real migrations combine elements from more than one cell, particularly in large or phased programmes.
 

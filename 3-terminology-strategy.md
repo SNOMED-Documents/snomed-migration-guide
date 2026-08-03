@@ -19,22 +19,23 @@ In a migration context, two reference-terminology mechanisms account for most of
 **Batch mapping.** Historical records are converted from legacy code systems to SNOMED CT in bulk. The same kind of pre-built mapping applied in interface binding is applied systematically across a body of existing data. The result is that historical records carry SNOMED CT codes without any change to the system clinicians use.
 
 Four further reference-terminology patterns apply in specific contexts:
-- **At-exchange translation.** Local codes are converted to SNOMED CT only when data leaves the system - for exchange with partner organisations, national reporting, or FHIR APIs. The system continues to store local codes internally.
-- **Decision support.** SNOMED CT's hierarchy defines which patients trigger alerts and order sets. A drug-allergy alert based on SNOMED CT hierarchy fires for all relevant descendants of the allergen concept, not just the codes explicitly listed.
-- **Analytics and reporting.** SNOMED CT concepts are used to query and group data from mixed coding systems, enabling consistent population-level analysis.
-- **Cross-map hub.** SNOMED CT bridges between two other terminologies - for example, mapping ICD-10 diagnoses to RxNorm drugs via a SNOMED CT intermediary concept.
 
-## What reference terminology delivers - and what it does not
+* **At-exchange translation.** Local codes are converted to SNOMED CT only when data leaves the system - for exchange with partner organisations, national reporting, or FHIR APIs. The system continues to store local codes internally.
+* **Decision support.** SNOMED CT's hierarchy defines which patients trigger alerts and order sets. A drug-allergy alert based on SNOMED CT hierarchy fires for all relevant descendants of the allergen concept, not just the codes explicitly listed.
+* **Analytics and reporting.** SNOMED CT concepts are used to query and group data from mixed coding systems, enabling consistent population-level analysis.
+* **Cross-map hub.** SNOMED CT bridges between two other terminologies - for example, mapping ICD-10 diagnoses to RxNorm drugs via a SNOMED CT intermediary concept.
+
+### What reference terminology delivers - and what it does not
 
 Reference terminology enables SNOMED CT-coded exchange, standards-based interoperability, analytics, and decision support without requiring clinicians to change how they work. The limitation is that coding granularity is constrained by the map: clinicians cannot record a more specific SNOMED CT concept than the map provides, and mapping errors produce silent coding errors in clinical data.
 
-Reference terminology also requires ongoing maintenance. Maps age - SNOMED CT releases twice yearly, legacy code systems evolve independently, and value sets added after the map was authored are not covered. Map governance is as important as map creation.
+Reference terminology also requires ongoing maintenance. Maps age - SNOMED CT releases every month, legacy code systems evolve independently, and value sets added after the map was authored are not covered. Map governance is as important as map creation.
 
 ## How SNOMED CT operates as a primary terminology
 
 When SNOMED CT is used as a primary terminology, the clinical workflow centres on SNOMED CT concept search and selection. Clinicians develop SNOMED CT fluency over time. The stored record carries the exact concept the clinician selected, with no mapping layer.
 
-This delivers higher clinical granularity - the difference between *chest pain* and *unstable angina* is recorded, not lost. It enables more precise decision support, richer semantic search, and data that is directly usable by AI tools without pre-processing. The trade-off is that it requires clinical training, change management, and typically a longer path to go-live than reference terminology.
+This delivers higher clinical granularity - the difference between _chest pain_ and _unstable angina_ is recorded, not lost. It enables more precise decision support, richer semantic search, and data that is directly usable by AI tools without pre-processing. The trade-off is that it requires clinical training, change management, and typically a longer path to go-live than reference terminology.
 
 ## Choosing the right position for each workflow
 

@@ -15,15 +15,16 @@ Safety-critical data types - allergies, known drug sensitivities, high-risk medi
 ## Verification against migration objectives
 
 Verification closes the loop between the original business case and the delivered outcome. The most straightforward approach is to:
+
 1. At the start of the project, select three or four of the eight strategic objectives from [Why Migrate to SNOMED CT](1-why-migrate-to-snomed-ct.md) that the migration is explicitly intended to deliver.
 2. Define baseline measurements for each (current state, before the migration).
 3. Define target values for each (what the migration is expected to achieve).
 4. Measure at go-live, at three months post-go-live, and at twelve months post-go-live.
 
-Examples of measurable verification targets:
+**Examples of measurable verification targets:**
 
-- Drug-allergy alert accuracy: percentage of true-positive alerts vs. false positives/negatives compared to the pre-migration baseline.
-- FHIR conformance rate: percentage of exported resources passing validation against the relevant implementation guide.
-- Data exchange success rate: percentage of exchanges with partner organisations completing without semantic mismatch errors.
-- SNOMED CT coverage on the problem list: percentage of entries carrying a SNOMED CT concept vs. free-text only or local code only.
-- Semantic search coverage: percentage of clinical search queries returning SNOMED CT-coded results.
+* Drug-allergy alert accuracy: percentage of true-positive alerts vs. false positives/negatives compared to the pre-migration baseline.
+* FHIR conformance rate: percentage of exported resources passing validation against the relevant implementation guide.
+* Data exchange success rate: percentage of exchanges with partner organisations completing without semantic mismatch errors.
+* SNOMED CT coverage on the problem list: percentage of entries carrying a SNOMED CT concept vs. free-text only or local code only.
+* Semantic search coverage: percentage of clinical search queries returning SNOMED CT-coded results.

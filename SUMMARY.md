@@ -8,8 +8,8 @@
 ## Foundations
 
 * [Why Migrate to SNOMED CT](1-why-migrate-to-snomed-ct.md)
-* [The Architectural Context](<2 the-architectural-context/README.md>)
-  * [Terminology Infrastructure](<2 the-architectural-context/2.1-terminology-infrastructure.md>)
+* [The Architectural Context](foundations/2-the-architectural-context.md)
+* [Terminology Infrastructure](foundations/2.1-terminology-infrastructure.md)
 
 ## Strategic Decisions
 

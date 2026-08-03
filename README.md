@@ -1,7 +1,7 @@
 ---
-cover: .gitbook/assets/SI_CT_Logo_Delivered_By.png
+cover: .gitbook/assets/GitBook Banner-selection.png
 coverY: 0
-coverHeight: 113
+coverHeight: 262
 layout:
   width: default
   cover:
