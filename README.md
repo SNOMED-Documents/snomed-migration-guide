@@ -1,12 +1,12 @@
 ---
 cover: .gitbook/assets/GitBook Banner-selection.png
 coverY: 0
-coverHeight: 262
+coverHeight: 164
 layout:
   width: default
   cover:
     visible: true
-    size: full
+    size: hero
     mask: none
   title:
     visible: true
