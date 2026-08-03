@@ -1,7 +1,9 @@
 # Table of contents
 
+## Introduction
+
 * [Migrating to SNOMED CT](README.md)
-* [Introduction](introduction.md)
+* [Introduction](introduction/introduction.md)
 
 ## Foundations
 
