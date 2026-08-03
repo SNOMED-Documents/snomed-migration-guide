@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: false
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Migrating to SNOMED CT
 
 This guide is intended for organisations planning or executing a migration to SNOMED CT, including national release centres (NRCs), user organisations such as hospitals, primary care networks, and health authorities, and EHR and health IT vendors implementing SNOMED CT in products and platforms. It covers the full arc of a migration: why organisations undertake them, the decisions that shape them, how to plan and execute the work, common challenges and how to address them, and how to know when the migration has succeeded.
