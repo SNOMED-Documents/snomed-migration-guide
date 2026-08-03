@@ -1,6 +1,13 @@
 ---
+cover: .gitbook/assets/SI_CT_Logo_Delivered_By.png
+coverY: 0
+coverHeight: 113
 layout:
   width: default
+  cover:
+    visible: true
+    size: full
+    mask: none
   title:
     visible: true
   description:
