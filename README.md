@@ -1,7 +1,7 @@
 ---
-cover: .gitbook/assets/GitBook Banner-selection.png
+cover: .gitbook/assets/GitBook Banner.png
 coverY: 0
-coverHeight: 164
+coverHeight: 152
 layout:
   width: default
   cover:
